@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>我的博客</title>
+  <title>我的博客搭建记 | 我的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="我的博客">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="title: 我的博客搭建记date: 2026-09-13 22:30:00tags:  - 博客搭建  - Hexo  - GitHub为什么要搭博客作为大一新生，一直想拥有一个属于自己的个人博客。经过了解，选择了 GitHub + Hexo 的方案，免费、稳定，还能顺便学习 Git 命令行操作。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我的博客搭建记">
+<meta property="og:url" content="http://example.com/2026/09/13/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0/index.html">
 <meta property="og:site_name" content="我的博客">
+<meta property="og:description" content="title: 我的博客搭建记date: 2026-09-13 22:30:00tags:  - 博客搭建  - Hexo  - GitHub为什么要搭博客作为大一新生，一直想拥有一个属于自己的个人博客。经过了解，选择了 GitHub + Hexo 的方案，免费、稳定，还能顺便学习 Git 命令行操作。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-09-13T15:26:01.000Z">
+<meta property="article:modified_time" content="2026-09-13T15:28:29.568Z">
 <meta property="article:author" content="Linxinyan">
 <meta name="twitter:card" content="summary">
   
@@ -73,9 +77,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-我的博客搭建记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-我的博客搭建记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2026/09/13/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0/" class="article-date">
   <time class="dt-published" datetime="2026-09-13T15:26:01.000Z" itemprop="datePublished">2026-09-13</time>
@@ -88,8 +90,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/09/13/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0/">我的博客搭建记</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      我的博客搭建记
     </h1>
   
 
@@ -98,11 +100,17 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="title-我的博客搭建记date-2026-09-13-22-30-00tags-博客搭建-Hexo-GitHub"><a href="#title-我的博客搭建记date-2026-09-13-22-30-00tags-博客搭建-Hexo-GitHub" class="headerlink" title="title: 我的博客搭建记date: 2026-09-13 22:30:00tags:  - 博客搭建  - Hexo  - GitHub"></a>title: 我的博客搭建记<br>date: 2026-09-13 22:30:00<br>tags:<br>  - 博客搭建<br>  - Hexo<br>  - GitHub</h2><h2 id="为什么要搭博客"><a href="#为什么要搭博客" class="headerlink" title="为什么要搭博客"></a>为什么要搭博客</h2><p>作为大一新生，一直想拥有一个属于自己的个人博客。经过了解，选择了 GitHub + Hexo 的方案，免费、稳定，还能顺便学习 Git 命令行操作。</p>
-        
-          <p class="article-more-link">
-            <a href="/2026/09/13/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0/#more">Read More</a>
-          </p>
-        
+<span id="more"></span>
+
+<h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><h3 id="1-安装-Node-js"><a href="#1-安装-Node-js" class="headerlink" title="1. 安装 Node.js"></a>1. 安装 Node.js</h3><p>去 Node.js 官网下载 LTS 版本，一路下一步安装即可。安装完在命令行输入 <code>node -v</code> 和 <code>npm -v</code> 验证是否成功。</p>
+<h3 id="2-安装-Git"><a href="#2-安装-Git" class="headerlink" title="2. 安装 Git"></a>2. 安装 Git</h3><p>通过 <code>winget install --id Git.Git -e --source winget</code> 一键安装 Git。</p>
+<h3 id="3-安装-Hexo"><a href="#3-安装-Hexo" class="headerlink" title="3. 安装 Hexo"></a>3. 安装 Hexo</h3><pre><code class="language-bash">npm install -g hexo-cli
+hexo init my-blog
+cd my-blog
+npm install
+hexo s
+</code></pre>
+
       
     </div>
     <footer class="article-footer">
@@ -113,62 +121,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2026/09/13/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2026-09-13T14:21:45.747Z" itemprop="datePublished">2026-09-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/09/13/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2026/09/13/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2026/09/13/hello-world/" data-id="cuidapU0x-bR7Z8vAPff3TbY3" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
